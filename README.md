@@ -76,7 +76,7 @@ The operating conditions (rotating speed and load) include:
 2) 25 Hz and 0.226Nm
 3) 30 Hz and 0.339Nm
 4) 35 Hz and 0.452Nm
-5) 
+   
 The rotating speed is adjusted by the speed control, and the load is regulated by the load control device. Fig. 4 illustrates the load control device.
 
 
