@@ -1,6 +1,8 @@
 # HUSTgearbox dataset (实验室自采开源数据集)
 
-We released an open-source gearbox failure dataset. We hope this dataset can benefit your research
+We released an open-source gearbox failure dataset. 
+
+We hope this dataset can benefit your research
 
 data link: https://pan.quark.cn/s/c9ddae3ac768
 
