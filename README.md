@@ -1,5 +1,7 @@
 # HUSTgearbox dataset (实验室自采开源数据集)
 
+**Important updata 2025-05-19. The second column of the file represents speed. However, since we collected the data at a constant speed, this column is redundant and holds no meaningful value. You can ignore it. The correct speed is indicated in the filename.**
+
 We released an open-source gearbox failure dataset. 
 
 We hope this dataset can benefit your research
@@ -26,10 +28,13 @@ The gearbox fault tests were conducted using a Spectra-Quest Mechanical Fault Si
 
 From left to right on the test rig are speed control, motor, acceleration sensor, gearbox, and data acquisition board. 
 
-The gearbox in three health states is illustrated in Fig. 2, 
-(1) Normal, 
-(2) Broken tooth,
-(3) Missing tooth.
+The gearbox in three health states is illustrated in Fig. 2,   
+
+(1) Normal,   
+
+(2) Broken tooth,  
+
+(3) Missing tooth.  
 
 It’s important to note that all faults are artificially preset.
 
@@ -84,7 +89,7 @@ The rotating speed is adjusted by the speed control, and the load is regulated b
 
 The sampling frequency is set to 25.6 kHz.
 
-As shown in Fig. 5, a total of 262144 data points (i.e. 10.2s) are recorded for each sampling.
+A total of 262144 data points (i.e. 10.2s) are recorded for each sampling.
  
 
 
