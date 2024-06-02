@@ -1,4 +1,4 @@
-# HUSTgearbox dataset (实验室自采开源数据集)
+# HUSTgearbox dataset (实验室自采开源数据集，包含稳定转速和时变转速)
 
 **Important updata 2025-05-19. The second column of the file represents speed. However, since we collected the data at a constant speed, this column is redundant and holds no meaningful value. You can ignore it. The correct speed is indicated in the filename.**
 
@@ -11,7 +11,7 @@ data link: https://pan.quark.cn/s/c9ddae3ac768
 
 ## Dataset overview
 
-This dataset comprises vibration signals from gearbox in three different health states under four distinct operating conditions.
+This dataset comprises vibration signals from gearbox in **3** different health states under **30** distinct operating conditions.
 
 These datasets are publicly available, and anyone can use them to validate diagnosis algorithms for gearbox. Publications making use of the HUSTgearbox datasets are requested to cite the following paper.
 
@@ -74,15 +74,29 @@ Gear bearing: (2 bearings)
 
 ### Operating Condition
 
-A total of 4 different operating conditions were set in experiments.
-The operating conditions (rotating speed and load) include:
+A total of 30 different operating conditions (5 types of loads and 6 types of speeds) were set in experiments.   
 
-1) 20 Hz and 0.113Nm
-2) 25 Hz and 0.226Nm
-3) 30 Hz and 0.339Nm
-4) 35 Hz and 0.452Nm
+The operating load include:  
+1)	0 Nm  
+2)	0.113 Nm  
+3)	0.226 Nm  
+4)	0.339 Nm  
+5)	0.452 Nm
    
-The rotating speed is adjusted by the speed control, and the load is regulated by the load control device. Fig. 4 illustrates the load control device.
+The operating speed include:  
+1)	20 Hz   
+2)	25 Hz   
+3)	30 Hz   
+4)	35 Hz   
+5)	35 Hz  
+6)	0-40-0 Hz,   see Fig. 3.
+
+![image](https://github.com/CHAOZHAO-1/HUSTgearbox-dataset/blob/main/IMG/F3.png)
+
+Fig. 3. Time-varying speed.
+
+   
+The rotating speed is adjusted by the speed control, and the load is regulated by the load control device. 
 
 
 ### Sampling setting
@@ -94,7 +108,7 @@ A total of 262144 data points (i.e. 10.2s) are recorded for each sampling.
 
 
 ## Dataset details
-The raw data file comprises 12 files (3 health states multiplied by 4 working conditions), each in TEXT format.
+The raw data file comprises 90 files (3 health states multiplied by 30 working conditions), each in TEXT format.
 
 For instance, the filename " B_20_1 " indicates broken tooth fault under the 20 Hz and 1×0.113 Nm working condition.
 
