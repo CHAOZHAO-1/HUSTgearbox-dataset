@@ -88,7 +88,7 @@ The operating speed include:
 2)	25 Hz   
 3)	30 Hz   
 4)	35 Hz   
-5)	35 Hz  
+5)	40 Hz  
 6)	0-40-0 Hz,   see Fig. 3.
 
 ![image](https://github.com/CHAOZHAO-1/HUSTgearbox-dataset/blob/main/IMG/F3.png)
