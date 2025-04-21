@@ -1,12 +1,10 @@
 # HUSTgearbox dataset (实验室自采开源数据集，包含稳定转速和时变转速)
 
-**Important updata 2025-05-19. The second column of the file represents speed. However, since we collected the data at a constant speed, this column is redundant and holds no meaningful value. You can ignore it. The correct speed is indicated in the filename.**
+**Important updata 2024-05-19. The second column of the file represents speed. However, since we collected the data at a constant speed, this column is redundant and holds no meaningful value. You can ignore it. The correct speed is indicated in the filename.**
 
 We released an open-source gearbox failure dataset. 
 
 We hope this dataset can benefit your research
-
-data of quark disk: https://pan.quark.cn/s/c9ddae3ac768  
 
 
 data of Google Drive: https://drive.google.com/drive/folders/1Lt8Xu6NICPadliXhOtDMB683uKwZv4FP?usp=sharing
